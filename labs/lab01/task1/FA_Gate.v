@@ -15,6 +15,7 @@ module FA_Gate(
   output cout
 );
   wire ps, pc1, pc2;
+       
 
   and (pc1, a,   b);
    xor (ps,  a,   b);

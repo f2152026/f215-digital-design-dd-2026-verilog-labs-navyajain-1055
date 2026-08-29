@@ -23,6 +23,7 @@ module tb;
       $dumpvars(0, DUT);
     end
   end
+      
 
   initial begin
     t_a = 0; t_b = 0; t_cin = 0;
